@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+@media screen and (min-width: 768px) {
+  ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+  }
+  .home-section {
+    background-image: url("../images/pexels-pixabay-90764.jpg");
+    height: 100vh;
+    background-size: cover;
+  }
+  .home-h {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+}
