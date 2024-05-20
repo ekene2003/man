@@ -9,17 +9,68 @@
 @media screen and (min-width: 768px) {
   ul a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 1.2rem;
   }
-  .home-section {
+  .man-links {
+    background-color: #fff;
+  }
+
+  .home-h {
+    font-size: 3rem;
+  }
+  .home-img {
+    /* width: 102.1%; */
+  }
+  .left {
     background-image: url("../images/pexels-pixabay-90764.jpg");
-    height: 100vh;
+    height: 26rem;
     background-size: cover;
   }
-  .home-h {
-    font-size: 4rem;
+  .white {
+    height: 70vh;
   }
+  .black-h {
+    font-size: 4rem;
+    text-align: end;
+    color: black;
+  }
+  .white-h {
+    font-size: 4rem;
+    text-align: start;
+    color: white;
+  }
+  .about-left {
+    background-image: url("../images/pexels-domenicopaolella-5826543.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 26rem;
+  }
+  .about-right {
+    background-image: url("../images/wavey-fingerprint.svg");
+  }
+}
+.tall {
+  background-image: url("../images/pexels-cottonbro-6221576.jpg");
+  background-size: cover;
+  height: 26rem;
+}
+.zero {
+  background-image: url("../images/pexels-apex-360-1742295-3345875.jpg") !important;
+}
+.one {
+  background-image: url("../images/pexels-cottonbro-6221576.jpg") !important;
+}
+.two {
+  background-image: url("../images/pexels-maksgelatin-4757966.jpg") !important;
+}
+.three {
+  background-image: url("../images/pexels-domenicopaolella-5826543.jpg") !important;
+}
+.short {
+  background-image: url("../images/pexels-maksgelatin-4757966.jpg");
+  background-size: cover;
+  height: 26rem;
 }
 @media screen and (max-width: 768px) {
 }
