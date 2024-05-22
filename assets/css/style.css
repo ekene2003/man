@@ -26,6 +26,7 @@
     background-image: url("../images/pexels-pixabay-90764.jpg");
     height: 26rem;
     background-size: cover;
+    background-attachment: fixed;
   }
   .white {
     height: 70vh;
@@ -45,6 +46,7 @@
     background-size: cover;
     background-position: center;
     height: 26rem;
+    background-attachment: fixed;
   }
   .about-right {
     background-image: url("../images/wavey-fingerprint.svg");
