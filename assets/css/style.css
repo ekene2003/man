@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  list-style-type: none;
+  /* list-style-type: none; */
   text-decoration: none;
   scroll-behavior: smooth;
 }
@@ -51,28 +51,44 @@
   .about-right {
     background-image: url("../images/wavey-fingerprint.svg");
   }
+  .tall {
+    background-image: url("../images/pexels-cottonbro-6221576.jpg");
+    background-size: cover;
+    height: 26rem;
+  }
+  .zero {
+    background-image: url("../images/pexels-apex-360-1742295-3345875.jpg") !important;
+  }
+  .one {
+    background-image: url("../images/pexels-cottonbro-6221576.jpg") !important;
+  }
+  .two {
+    background-image: url("../images/pexels-maksgelatin-4757966.jpg") !important;
+  }
+  .three {
+    background-image: url("../images/pexels-domenicopaolella-5826543.jpg") !important;
+  }
+  .short {
+    background-image: url("../images/pexels-maksgelatin-4757966.jpg");
+    background-size: cover;
+    height: 26rem;
+  }
+  .prop-ul {
+    color: #fff;
+    list-style-type: disc !important;
+  }
+  .bg {
+    background-image: url("../images/pexels-apex-360-1742295-3345875.jpg");
+    height: 25rem;
+    background-size: cover;
+    width: 30rem;
+  }
+  .bg-right {
+    background-image: url("../images/pexels-cottonbro-6221576.jpg");
+    background-size: cover;
+    height: 30rem;
+  }
 }
-.tall {
-  background-image: url("../images/pexels-cottonbro-6221576.jpg");
-  background-size: cover;
-  height: 26rem;
-}
-.zero {
-  background-image: url("../images/pexels-apex-360-1742295-3345875.jpg") !important;
-}
-.one {
-  background-image: url("../images/pexels-cottonbro-6221576.jpg") !important;
-}
-.two {
-  background-image: url("../images/pexels-maksgelatin-4757966.jpg") !important;
-}
-.three {
-  background-image: url("../images/pexels-domenicopaolella-5826543.jpg") !important;
-}
-.short {
-  background-image: url("../images/pexels-maksgelatin-4757966.jpg");
-  background-size: cover;
-  height: 26rem;
-}
+
 @media screen and (max-width: 768px) {
 }
