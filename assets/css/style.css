@@ -7,6 +7,9 @@
   scroll-behavior: smooth;
 }
 @media screen and (min-width: 768px) {
+  .bg-grey {
+    background-color: rgb(99, 99, 99);
+  }
   ul a {
     text-decoration: none;
     color: black;
@@ -94,13 +97,35 @@
     background-color: rgb(50, 49, 49);
     background-blend-mode: overlay;
     background-size: cover;
-    height: 30rem;
+    height: 35rem;
   }
   .h {
-    height: 30rem;
+    height: 35rem;
   }
   .h2 {
     height: 25rem;
+  }
+  .work-img {
+    height: 10rem;
+    object-fit: cover;
+    /* display: none; */
+  }
+  .img-wrap {
+    cursor: pointer;
+  }
+  .img-wrap:hover .work-img {
+    transform: scale(1.3);
+    transition: all 1s ease-in-out;
+  }
+  .write-l {
+    background-image: url("../images/pexels-maksgelatin-4757966.jpg");
+    background-size: cover;
+    height: 30rem;
+  }
+  .write-l2 {
+    background-image: url("../images/pexels-cottonbro-6221576.jpg");
+    background-size: cover;
+    height: 30rem;
   }
 }
 
