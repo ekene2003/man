@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* list-style-type: none; */
+  list-style-type: none;
   text-decoration: none;
   scroll-behavior: smooth;
 }
@@ -126,6 +126,18 @@
     background-image: url("../images/pexels-cottonbro-6221576.jpg");
     background-size: cover;
     height: 30rem;
+  }
+  .footer-btn {
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    margin-right: 1rem;
+  }
+  .footer-ul li a {
+    color: white;
+    list-style-type: none !important;
   }
 }
 
