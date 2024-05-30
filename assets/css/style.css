@@ -5,10 +5,17 @@
   list-style-type: none;
   text-decoration: none;
   scroll-behavior: smooth;
+  font-family: "Nunito Sans", sans-serif;
 }
 @media screen and (min-width: 768px) {
   .bg-grey {
     background-color: rgb(99, 99, 99);
+  }
+  .nav-icon {
+    display: none;
+  }
+  .nav-icon2 {
+    display: none;
   }
   ul a {
     text-decoration: none;
@@ -142,4 +149,172 @@
 }
 
 @media screen and (max-width: 768px) {
+  .bg-grey {
+    background-color: rgb(99, 99, 99);
+  }
+  ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+  }
+  .man-links {
+    background-color: #fff;
+  }
+  .brand-h {
+    display: flex;
+    justify-content: space-between;
+  }
+  .man-li-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+    width: 100%;
+  }
+  .man-links {
+    background-color: white;
+    width: 100% !important;
+    border: 2px solid red;
+    position: absolute;
+    z-index: 999;
+    top: 4rem;
+    left: -100%;
+  }
+  .nav-icon,
+  .nav-icon2 {
+    border: 1px solid white;
+    padding: 0.5rem;
+    color: white;
+  }
+  .nav-icon2 {
+    display: none;
+  }
+  .home-h {
+    font-size: 3rem;
+  }
+  .home-img {
+    /* width: 102.1%; */
+  }
+  .left {
+    background-image: url("../images/pexels-pixabay-90764.jpg");
+    height: 26rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .m-about {
+    display: flex !important;
+  }
+  .white,
+  .black {
+    height: 20rem;
+    width: 50% !important;
+  }
+  .white {
+    background-color: white;
+  }
+  .black-h {
+    font-size: 2.5rem;
+    text-align: end;
+    color: black;
+  }
+  .white-h {
+    font-size: 2.5rem;
+    /* text-align: start; */
+    color: white;
+  }
+  .about-left {
+    background-image: url("../images/pexels-domenicopaolella-5826543.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    background-attachment: fixed;
+  }
+  .about-right {
+    background-image: url("../images/wavey-fingerprint.svg");
+  }
+  .tall {
+    background-image: url("../images/pexels-cottonbro-6221576.jpg");
+    background-size: cover;
+    height: 20rem;
+  }
+  .zero {
+    background-image: url("../images/pexels-apex-360-1742295-3345875.jpg") !important;
+  }
+  .one {
+    background-image: url("../images/pexels-cottonbro-6221576.jpg") !important;
+  }
+  .two {
+    background-image: url("../images/pexels-maksgelatin-4757966.jpg") !important;
+  }
+  .three {
+    background-image: url("../images/pexels-domenicopaolella-5826543.jpg") !important;
+  }
+  .short {
+    background-image: url("../images/pexels-maksgelatin-4757966.jpg");
+    background-size: cover;
+    height: 26rem;
+  }
+  .prop-ul {
+    color: #fff;
+    list-style-type: disc !important;
+  }
+  .bg {
+    background-image: url("../images/pexels-apex-360-1742295-3345875.jpg");
+    height: 20rem;
+    background-size: cover;
+    /* width: 25rem; */
+    background-color: rgb(50, 49, 49);
+    background-blend-mode: overlay;
+    background-size: cover;
+  }
+  .bg-right {
+    background-image: url("../images/pexels-cottonbro-6221576.jpg");
+    background-color: rgb(50, 49, 49);
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 35rem;
+  }
+  .h {
+    height: 35rem;
+  }
+  .h2 {
+    height: 25rem;
+  }
+  .work {
+    display: flex;
+    flex-direction: column;
+  }
+  .work-img {
+    height: 10rem;
+    object-fit: cover;
+    /* display: none; */
+  }
+  .m-p {
+    text-align: start !important;
+  }
+
+  .write-l {
+    background-image: url("../images/pexels-maksgelatin-4757966.jpg");
+    background-size: cover;
+    height: 20rem;
+    padding: 1rem;
+  }
+  .write-l2 {
+    background-image: url("../images/pexels-cottonbro-6221576.jpg");
+    background-size: cover;
+    height: 30rem;
+  }
+  .footer-btn {
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    margin-right: 1rem;
+  }
+  .footer-ul li a {
+    color: white;
+    list-style-type: none !important;
+  }
 }
