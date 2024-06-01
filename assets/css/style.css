@@ -200,7 +200,6 @@
     height: 26rem;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
   }
   .m-about {
     display: flex !important;
@@ -228,7 +227,6 @@
     background-size: cover;
     background-position: center;
     height: 20rem;
-    background-attachment: fixed;
   }
   .about-right {
     background-image: url("../images/wavey-fingerprint.svg");
