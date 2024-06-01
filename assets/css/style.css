@@ -231,6 +231,7 @@
   .about-right {
     background-image: url("../images/wavey-fingerprint.svg");
   }
+
   .tall {
     background-image: url("../images/pexels-cottonbro-6221576.jpg");
     background-size: cover;
@@ -282,10 +283,24 @@
   .work {
     display: flex;
     flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .work p,
+  h2 {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  .con-p,
+  .connect-sec h1,
+  h4 {
+    text-align: center;
   }
   .work-img {
-    height: 10rem;
+    height: 15rem;
     object-fit: cover;
+    display: block;
+    margin: 0 auto;
     /* display: none; */
   }
   .m-p {
