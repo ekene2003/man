@@ -219,7 +219,7 @@
   }
   .white-h {
     font-size: 2.5rem;
-    /* text-align: start; */
+    text-align: start;
     color: white;
   }
   .about-left {
